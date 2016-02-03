@@ -225,10 +225,11 @@
 
 ## converters
 - **03** [jsdom-nogyp](https://www.npmjs.com/package/jsdom-nogyp) - A JavaScript implementation of the W3C DOM, forked from jsdom, remove dependencies to contextify and node-gyp
-- **01** [html-pdf](https://www.npmjs.com/package/html-pdf) - HTML to PDF converter that uses phantomjs
 - :snowflake: [xml2js](https://www.npmjs.com/package/xml2js) - Simple XML to JavaScript object converter.
 - :snowflake: [exceljs](https://www.npmjs.com/package/exceljs) - Excel Workbook Manager
 - :snowflake: [excel-stream](https://www.npmjs.com/package/excel-stream) - convert a stream of xls or xlsx into json on the command line or in node
+- **01** [html-pdf](https://www.npmjs.com/package/html-pdf) - HTML to PDF converter that uses phantomjs
+- **01** [easyimage](https://www.npmjs.com/package/easyimage) - A promise-based, user-friendly module for processing images in Node.js
 
 ## markdown
 - **06** [ghmd2pdf](https://www.npmjs.com/package/ghmd2pdf) - module and cli tool for converting github markdown to pdf
