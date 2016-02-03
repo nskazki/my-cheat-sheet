@@ -47,6 +47,7 @@
 - [eslint](#eslint)
 - [source code analysis](#source-code-analysis)
 - [process management](#process-management)
+- [music stuff](#music-stuff)
 - [other](#other)
 - [random data generators](#random-data-generators)
 - [crazy stuff](#crazy-stuff)
@@ -85,9 +86,8 @@
 - :snowflake: [speed-test](https://www.npmjs.com/package/speed-test) - Test your internet connection speed and ping using speedtest.net from the CLI
 - :snowflake: [imgur-uploader-cli](https://www.npmjs.com/package/imgur-uploader-cli) - Upload images to imgur
 - :snowflake: [localtunnel](https://www.npmjs.com/package/localtunnel) - expose localhost to the world
-- **01** [http-server](https://www.npmjs.com/package/http-server) - A simple zero-configuration command-line http server
+- **03** [http-server](https://www.npmjs.com/package/http-server) - A simple zero-configuration command-line http server
 - :snowflake: [itunes-remote](https://www.npmjs.com/package/itunes-remote) - Control iTunes via CLI
-- :snowflake: [badtaste](https://www.npmjs.com/package/badtaste) - Play audio from vk.com in your terminal
 - :snowflake: [wifi-password](https://www.npmjs.com/package/wifi-password) - Get current wifi password
 - :snowflake: [pipeable-js](https://www.npmjs.com/package/pipeable-js) - Pipeable JavaScript
 - :snowflake: [parallelshell](https://www.npmjs.com/package/parallelshell) - Invoke multiple commands, running in parallel
@@ -103,7 +103,7 @@
 - :snowflake: [username](https://www.npmjs.com/package/username) - Get the username of the current user
 
 ## shell
-- :snowflake: [bash-exec](https://www.npmjs.com/package/bash-exec) - like spawn('bash', [ '-c', cmd ]), but with better error handling
+- **02** [bash-exec](https://www.npmjs.com/package/bash-exec) - like spawn('bash', [ '-c', cmd ]), but with better error handling
 - :snowflake: [shelljs](https://www.npmjs.com/package/shelljs) - Portable Unix shell commands for Node.js
 - :snowflake: [parallelshell](https://www.npmjs.com/package/parallelshell) - Invoke multiple commands, running in parallel
 
@@ -112,10 +112,11 @@
 - :snowflake: [user-home](https://www.npmjs.com/package/user-home) - Get the path to the user home directory
 - **01** [glob](https://www.npmjs.com/package/glob) - a little globber
 - :snowflake: [globby](https://www.npmjs.com/package/globby) - Extends `glob` with support for multiple patterns and exposes a Promise API
-- **03** [mkdirp](https://www.npmjs.com/package/mkdirp) - Recursively mkdir, like `mkdir -p`
+- **05** [mkdirp](https://www.npmjs.com/package/mkdirp) - Recursively mkdir, like `mkdir -p`
 - **01** [node-mv](https://www.npmjs.com/package/node-mv) - Command-line tool for renaming/moving a node.js source file and update all references to the file
 - :snowflake: [rimraf](https://www.npmjs.com/package/rimraf) - A deep deletion module for node (like `rm -rf`)
 - :snowflake: [cpy](https://www.npmjs.com/package/cpy) - Copy files
+- **01** [tmp](https://www.npmjs.com/package/tmp) - Temporary file and directory creator
 - :snowflake: [istextorbinary](https://www.npmjs.com/package/istextorbinary) - Determines if a buffer is comprised of text or binary
 - :snowflake: [filenamify](https://www.npmjs.com/package/filenamify) - Convert a string to a valid filename
 - :snowflake: [find-up](https://www.npmjs.com/package/find-up) - Find a file by walking up parent directories
@@ -124,11 +125,11 @@
 - :snowflake: [sparkly](https://www.npmjs.com/package/sparkly) - Generate sparklines ▁▂▃▅▂▇
 - :snowflake: [cli-chart](https://www.npmjs.com/package/cli-chart) - Ansi color Bar Charts in your terminal with node.js!
 - :snowflake: [cli-graph](https://www.npmjs.com/package/cli-graph) - Easily draw function graphs in text mode.
-- :snowflake: [babar](https://www.npmjs.com/package/babar) - CLI bar charts
+- **03** [babar](https://www.npmjs.com/package/babar) - CLI bar charts
 
 ## CLI progress
 - **02** [multimeter](https://www.npmjs.com/package/multimeter) - render multiple progress bars at once on the terminal
-- **01** [progress](https://www.npmjs.com/package/progress) - Flexible ascii progress bar
+- **03** [progress](https://www.npmjs.com/package/progress) - Flexible ascii progress bar
 - :snowflake: [progress-control](https://www.npmjs.com/package/progress-control) - node-progress wrapper to control bar from keyboard
 - :snowflake: [elegant-spinner](https://www.npmjs.com/package/elegant-spinner) - Elegant spinner for interactive CLI apps
 - :snowflake: [cli-spinner](https://www.npmjs.com/package/cli-spinner) - A simple spinner
@@ -143,46 +144,46 @@
 - :snowflake: [update-notifier](https://www.npmjs.com/package/update-notifier) - Update notifications for your CLI app
 
 ## CLI other tools
-- **07** [chalk](https://www.npmjs.com/package/chalk) - Terminal string styling done right. Much color.
+- **11** [chalk](https://www.npmjs.com/package/chalk) - Terminal string styling done right. Much color.
 - :snowflake: [cfonts](https://www.npmjs.com/package/cfonts) - Sexy fonts for the console
 - :snowflake: [boxen](https://www.npmjs.com/package/boxen) - Create boxes in the terminal
 - :snowflake: [marked-terminal](https://www.npmjs.com/package/marked-terminal) - A custom render for marked to output to the Terminal
 - :snowflake: [terminal-menu](https://www.npmjs.com/package/terminal-menu) - retro ansi terminal menus for serious 80s technicolor business
-- **36** [commander](https://www.npmjs.com/package/commander) - the complete solution for node.js command-line programs
+- **39** [commander](https://www.npmjs.com/package/commander) - the complete solution for node.js command-line programs
 - :snowflake: [dargs](https://www.npmjs.com/package/dargs) - Reverse minimist. Convert an object of options into an array of command-line arguments.
 
 ## config
-- **27** [natan](https://www.npmjs.com/package/natan) - smart config loader and builder
+- **28** [natan](https://www.npmjs.com/package/natan) - smart config loader and builder
 
 ## logger
-- **28** [bellman](https://www.npmjs.com/package/bellman) - pretty console logger
+- **29** [bellman](https://www.npmjs.com/package/bellman) - pretty console logger
 - :snowflake: [tracer](https://www.npmjs.com/package/tracer) - A powerful and customizable logging library for node.js. support color console with timestamp, line number, method name, file name and call stack. you can set transport to file, stream, database(ex: mongodb and clouddb, simpledb). keywords: log, logger, t
-- **13** [winston](https://www.npmjs.com/package/winston) - A multi-transport async logging library for Node.js
+- **14** [winston](https://www.npmjs.com/package/winston) - A multi-transport async logging library for Node.js
 
 ## graylog
 - **21** [bellman-graylog](https://www.npmjs.com/package/bellman-graylog) - graylog support for bellman (node.js logger module)
-- **03** [winston-tcp-graylog](https://www.npmjs.com/package/winston-tcp-graylog) - graylog support for winston based on gelf-pro
-- **03** [gelf-pro](https://www.npmjs.com/package/gelf-pro) - The Graylog Extended Log Format for the Node.js
+- **02** [winston-tcp-graylog](https://www.npmjs.com/package/winston-tcp-graylog) - graylog support for winston based on gelf-pro
+- **02** [gelf-pro](https://www.npmjs.com/package/gelf-pro) - The Graylog Extended Log Format for the Node.js
 
 ## helpers
-- **73** [lodash](https://www.npmjs.com/package/lodash) - Lodash modular utilities.
-- **14** [moment](https://www.npmjs.com/package/moment) - Parse, validate, manipulate, and display dates
+- **83** [lodash](https://www.npmjs.com/package/lodash) - Lodash modular utilities.
+- **16** [moment](https://www.npmjs.com/package/moment) - Parse, validate, manipulate, and display dates
 - **01** [node-uuid](https://www.npmjs.com/package/node-uuid) - Rigorous implementation of RFC4122 (v1 and v4) UUIDs.
 - **04** [mstorage](https://www.npmjs.com/package/mstorage) - special data storages
 - **01** [mstorage-restore](https://www.npmjs.com/package/mstorage-restore) - like jsonWrite(patj, storage) and storage = jsonRead(path) for large (~1e7) mstoreges
-- :snowflake: [serialize-error](https://www.npmjs.com/package/serialize-error) - Serialize an error into a plain object
+- **01** [serialize-error](https://www.npmjs.com/package/serialize-error) - Serialize an error into a plain object
 - :snowflake: [node-v8-clone](https://www.npmjs.com/package/node-v8-clone) - The most convenient and accurate cloner for node.js. It's also very fast in some cases (benchmarks inside).
 - :snowflake: [mem](https://www.npmjs.com/package/mem) - Memoize functions - An optimization used to speed up consecutive function calls by caching the result of calls with identical input
 
 ## hashing
-- **03** [xxhashjs](https://www.npmjs.com/package/xxhashjs) - xxHash in Javascript
+- **04** [xxhashjs](https://www.npmjs.com/package/xxhashjs) - xxHash in Javascript
 - :snowflake: [bcrypt](https://www.npmjs.com/package/bcrypt) - A bcrypt library for NodeJS.
 
 ## events
 - **01** [simple-ticker](https://www.npmjs.com/package/simple-ticker) - easy way to get an event at regular intervals
 
 ## promise
-- **56** [bluebird](https://www.npmjs.com/package/bluebird) - Full featured Promises/A+ implementation with exceptionally good performance
+- **64** [bluebird](https://www.npmjs.com/package/bluebird) - Full featured Promises/A+ implementation with exceptionally good performance
 - **01** [promisepipe](https://www.npmjs.com/package/promisepipe) - Pipe node.js streams safely with Promises
 - **07** [event-to-promise](https://www.npmjs.com/package/event-to-promise) - Create a promise waiting for an event
 - **10** [simple-e2p](https://www.npmjs.com/package/simple-e2p) - wrapper for event-to-promise
@@ -197,9 +198,12 @@
 - :snowflake: [execall](https://www.npmjs.com/package/execall) - Find multiple RegExp matches in a string
 - **02** [uncolor](https://www.npmjs.com/package/uncolor) - Remove ANSI escape codes from strings, buffers and streams
 - :snowflake: [string-width](https://www.npmjs.com/package/string-width) - Get the visual width of a string - the number of columns required to display it
+- **02** [split-lines](https://www.npmjs.com/package/split-lines) - Split lines into an array of lines
 - :snowflake: [normalize-newline](https://www.npmjs.com/package/normalize-newline) - Normalize the newline characters in a string to `\n`
+- **01** [near-dup-detection](https://www.npmjs.com/package/near-dup-detection) - a simple near duplicate detection by Shingling method
 
 ## humanize
+- **01** [humanize](https://www.npmjs.com/package/humanize) - Javascript string formatter for human readability
 - **01** [filesize](https://www.npmjs.com/package/filesize) - JavaScript library to generate a human readable String describing the file size
 - :snowflake: [human2bytes](https://www.npmjs.com/package/human2bytes) - h2b('1K') → 1024
 - **03** [human-interval](https://www.npmjs.com/package/human-interval) - Human readable time measurements
@@ -214,7 +218,7 @@
 
 ## JSON
 - **08** [jjv](https://www.npmjs.com/package/jjv) - A simple and extensible json-schema validator written in javascript. JJV runs in the browser and in the server (through node.js), it has no dependencies and has out-of-the-box AMD support.
-- **01** [jsonfile](https://www.npmjs.com/package/jsonfile) - Easily read/write JSON files.
+- **03** [jsonfile](https://www.npmjs.com/package/jsonfile) - Easily read/write JSON files.
 - **01** [jsonlint](https://www.npmjs.com/package/jsonlint) - Validate JSON
 - **01** [strip-json-comments](https://www.npmjs.com/package/strip-json-comments) - Strip comments from JSON. Lets you use comments in your JSON files!
 - :snowflake: [JSONStream](https://www.npmjs.com/package/JSONStream) - rawStream.pipe(JSONStream.parse()).pipe(streamOfObjects)
@@ -229,7 +233,7 @@
 ## markdown
 - **06** [ghmd2pdf](https://www.npmjs.com/package/ghmd2pdf) - module and cli tool for converting github markdown to pdf
 - :snowflake: [remarkable](https://www.npmjs.com/package/remarkable) - Markdown parser, done right. 100% Commonmark support, extensions, syntax plugins, high speed - all in one.
-- :snowflake: [markdown-utils](https://www.npmjs.com/package/markdown-utils) - Micro-utils for creating markdown snippets.
+- **01** [markdown-utils](https://www.npmjs.com/package/markdown-utils) - Micro-utils for creating markdown snippets.
 - :snowflake: [tidy-markdown](https://www.npmjs.com/package/tidy-markdown) - fix ugly markdown.
 
 ## phantom
@@ -238,36 +242,38 @@
 - **01** [node-horseman](https://www.npmjs.com/package/node-horseman) - Run PhantomJS from Node
 
 ## http request
-- **15** [request](https://www.npmjs.com/package/request) - Simplified HTTP request client.
+- **23** [request](https://www.npmjs.com/package/request) - Simplified HTTP request client.
 - :snowflake: [random-ua](https://www.npmjs.com/package/random-ua) - Randomly generates User-Agent strings based on actual usage statistics from Wikimedia.
 - :snowflake: [node-status-codes](https://www.npmjs.com/package/node-status-codes) - Node.js `http.STATUS_CODES` ponyfill
 - :snowflake: [urijs](https://www.npmjs.com/package/urijs) - URI.js is a Javascript library for working with URLs.
 - :snowflake: [url-pattern](https://www.npmjs.com/package/url-pattern) - easier than regex string matching patterns for urls and other strings. turn strings into data or data into strings.
 - **01** [querystring](https://www.npmjs.com/package/querystring) - Node's querystring module for all engines.
+- **01** [querystringify](https://www.npmjs.com/package/querystringify) - Querystringify - Small, simple but powerful query string parser.
 
 ## http server
-- **13** [express](https://www.npmjs.com/package/express) - Fast, unopinionated, minimalist web framework
+- **15** [express](https://www.npmjs.com/package/express) - Fast, unopinionated, minimalist web framework
 - **01** [proxy](https://www.npmjs.com/package/proxy) - An HTTP proxy written with Node.js (think Squid)
-- **01** [http-server](https://www.npmjs.com/package/http-server) - A simple zero-configuration command-line http server
-- **01** [body-parser](https://www.npmjs.com/package/body-parser) - Node.js body parsing middleware
+- **03** [http-server](https://www.npmjs.com/package/http-server) - A simple zero-configuration command-line http server
+- **03** [body-parser](https://www.npmjs.com/package/body-parser) - Node.js body parsing middleware
 - **01** [form-data](https://www.npmjs.com/package/form-data) - A library to create readable "multipart/form-data" streams. Can be used to submit forms and file uploads to other web applications.
 - **01** [http-auth](https://www.npmjs.com/package/http-auth) - Node.js package for HTTP basic and digest access authentication.
 - :snowflake: [passport](https://www.npmjs.com/package/passport) - Simple, unobtrusive authentication for Node.js.
 
 ## API's
-- **01** [vksdk](https://www.npmjs.com/package/vksdk) - SDK for API of vk.com
-- :snowflake: [package-json](https://www.npmjs.com/package/package-json) - Get the package.json of a package from the npm registry
-- :snowflake: [googleapis](https://www.npmjs.com/package/googleapis) - Google APIs Client Library for Node.js
-- :snowflake: [node-telegram-bot-api](https://www.npmjs.com/package/node-telegram-bot-api) - Telegram Bot API
+- **02** [vksdk](https://www.npmjs.com/package/vksdk) - SDK for API of vk.com
+- **01** [package-json](https://www.npmjs.com/package/package-json) - Get the package.json of a package from the npm registry
+- **01** [googleapis](https://www.npmjs.com/package/googleapis) - Google APIs Client Library for Node.js
+- **02** [node-telegram-bot-api](https://www.npmjs.com/package/node-telegram-bot-api) - Telegram Bot API
+- **01** [antigate](https://www.npmjs.com/package/antigate) - Client for antigate.com API
 
 ## email
 - **01** [mailparser](https://www.npmjs.com/package/mailparser) - Asynchronous and non-blocking parser for mime encoded e-mail messages
 - **03** [nodemailer](https://www.npmjs.com/package/nodemailer) - Easy as cake e-mail sending from your Node.js applications
 
 ## network transports
-- :snowflake: [ws](https://www.npmjs.com/package/ws) - simple to use, blazing fast and thoroughly tested websocket client, server and console for node.js, up-to-date against RFC-6455
+- **01** [ws](https://www.npmjs.com/package/ws) - simple to use, blazing fast and thoroughly tested websocket client, server and console for node.js, up-to-date against RFC-6455
 - :snowflake: [ssh2](https://www.npmjs.com/package/ssh2) - SSH2 client and server modules written in pure JavaScript for node.js
-- **19** [socket.io](https://www.npmjs.com/package/socket.io) - node.js realtime framework server
+- **21** [socket.io](https://www.npmjs.com/package/socket.io) - node.js realtime framework server
 
 ## network tools
 - **04** [find-free-port](https://www.npmjs.com/package/find-free-port) - find a free tcp port to listen locally
@@ -283,25 +289,29 @@
 ## database
 - **18** [mysql](https://www.npmjs.com/package/mysql) - A node.js driver for mysql. It is written in JavaScript, does not require compiling, and is 100% MIT licensed.
 - **07** [simple-pmysql](https://www.npmjs.com/package/simple-pmysql) - simple promisify wrapper for node-mysql
+- **01** [mongodb](https://www.npmjs.com/package/mongodb) - MongoDB legacy driver emulation layer on top of mongodb-core
+- **05** [mongoose](https://www.npmjs.com/package/mongoose) - Mongoose MongoDB ODM
 
 ## testing
-- **16** [mocha](https://www.npmjs.com/package/mocha) - simple, flexible, fun test framework
+- **19** [mocha](https://www.npmjs.com/package/mocha) - simple, flexible, fun test framework
 - **06** [power-assert](https://www.npmjs.com/package/power-assert) - Power Assert in JavaScript
 
 ## debugging
-- **28** [debug](https://www.npmjs.com/package/debug) - small debugging utility
-- **25** [simple-debugger](https://www.npmjs.com/package/simple-debugger) - tool for debugging events, and methods of your classes
+- **30** [debug](https://www.npmjs.com/package/debug) - small debugging utility
+- **28** [simple-debugger](https://www.npmjs.com/package/simple-debugger) - tool for debugging events, and methods of your classes
 - :snowflake: [bugger](https://www.npmjs.com/package/bugger) - Chrome Devtools Agents for node.js
 
 ## node staff
+- **01** [harmony-proxy](https://www.npmjs.com/package/harmony-proxy) - Small shim providing `new Proxy(target, handler)`
 - **02** [clear-require](https://www.npmjs.com/package/clear-require) - Clear a module from the require cache
-- **01** [proxyquire](https://www.npmjs.com/package/proxyquire) - Proxies nodejs require in order to allow overriding dependencies during testing.
+- **02** [proxyquire](https://www.npmjs.com/package/proxyquire) - Proxies nodejs require in order to allow overriding dependencies during testing.
 - **05** [depcheck](https://www.npmjs.com/package/depcheck) - Check dependencies in your node module
 - **07** [pkginfo](https://www.npmjs.com/package/pkginfo) - An easy way to expose properties on a module from a package.json
 - **01** [try-gc](https://www.npmjs.com/package/try-gc) - safe calls to gc()
 - :snowflake: [to-fast-properties](https://www.npmjs.com/package/to-fast-properties) - Force V8 to use fast properties for an object
 - :snowflake: [callsite](https://www.npmjs.com/package/callsite) - access to v8's CallSites
 - :snowflake: [caller-callsite](https://www.npmjs.com/package/caller-callsite) - Get the callsite of the caller function
+- **01** [stack-trace](https://www.npmjs.com/package/stack-trace) - Get v8 stack traces as an array of CallSite objects.
 - :snowflake: [source-map-support](https://www.npmjs.com/package/source-map-support) - Fixes stack traces for files with source maps
 
 ## build tools
@@ -314,19 +324,21 @@
 - :snowflake: [gulp](https://www.npmjs.com/package/gulp) - The streaming build system
 
 ## babel
-- **29** [babel](https://www.npmjs.com/package/babel) - Turn ES6 code into readable vanilla ES5 with source maps
-- **07** [babel-cli](https://www.npmjs.com/package/babel-cli) - Babel command line.
+- **31** [babel](https://www.npmjs.com/package/babel) - Turn ES6 code into readable vanilla ES5 with source maps
 - **01** [babel-core](https://www.npmjs.com/package/babel-core) - Babel compiler core.
 - **01** [babel-runtime](https://www.npmjs.com/package/babel-runtime) - babel selfContained runtime
-- **06** [babel-register](https://www.npmjs.com/package/babel-register) - babel require hook
-- **07** [babel-preset-es2015](https://www.npmjs.com/package/babel-preset-es2015) - Babel preset for all es2015 plugins.
-- **07** [babel-plugin-add-module-exports](https://www.npmjs.com/package/babel-plugin-add-module-exports) - Fix babel/babel#2212
+- **09** [babel-cli](https://www.npmjs.com/package/babel-cli) - Babel command line.
+- **01** [babel-polyfill](https://www.npmjs.com/package/babel-polyfill) - 
+- **07** [babel-register](https://www.npmjs.com/package/babel-register) - babel require hook
+- **09** [babel-preset-es2015](https://www.npmjs.com/package/babel-preset-es2015) - Babel preset for all es2015 plugins.
+- **09** [babel-plugin-add-module-exports](https://www.npmjs.com/package/babel-plugin-add-module-exports) - Fix babel/babel#2212
+- **01** [babel-plugin-syntax-async-functions](https://www.npmjs.com/package/babel-plugin-syntax-async-functions) - Allow parsing of async functions
 - **06** [babel-plugin-espower](https://www.npmjs.com/package/babel-plugin-espower) - Babel plugin for power-assert
 
 ## eslint
-- **34** [eslint](https://www.npmjs.com/package/eslint) - An AST-based pattern checker for JavaScript.
-- **37** [babel-eslint](https://www.npmjs.com/package/babel-eslint) - **babel-eslint** allows you to lint **ALL** valid Babel code with the fantastic [ESLint](https://github.com/eslint/eslint).
-- **12** [eslint-plugin-mocha](https://www.npmjs.com/package/eslint-plugin-mocha) - Eslint rules for mocha.
+- **45** [eslint](https://www.npmjs.com/package/eslint) - An AST-based pattern checker for JavaScript.
+- **39** [babel-eslint](https://www.npmjs.com/package/babel-eslint) - **babel-eslint** allows you to lint **ALL** valid Babel code with the fantastic [ESLint](https://github.com/eslint/eslint).
+- **13** [eslint-plugin-mocha](https://www.npmjs.com/package/eslint-plugin-mocha) - Eslint rules for mocha.
 - :snowflake: [eslint-plugin-markdown](https://www.npmjs.com/package/eslint-plugin-markdown) - An ESLint plugin to lint JavaScript in Markdown code fences.
 
 ## source code analysis
@@ -337,12 +349,16 @@
 ## process management
 - **01** [pm2](https://www.npmjs.com/package/pm2) - Production process manager for Node.JS applications with a built-in load balancer.
 
+## music stuff
+- **01** [working-mpd-client](https://www.npmjs.com/package/working-mpd-client) - mpd client
+- :snowflake: [badtaste](https://www.npmjs.com/package/badtaste) - Play audio from vk.com in your terminal
+- :snowflake: [nodeplayer](https://www.npmjs.com/package/nodeplayer) - simple, modular music player written in node.js
+
 ## other
 - **02** [java](https://www.npmjs.com/package/java) - Bridge API to connect with existing Java APIs.
 - :snowflake: [pageres](https://www.npmjs.com/package/pageres) - Capture website screenshots
 - :snowflake: [jade](https://www.npmjs.com/package/jade) - A clean, whitespace-sensitive template language for writing HTML
 - :snowflake: [documentation](https://www.npmjs.com/package/documentation) - a documentation generator
-- :snowflake: [working-mpd-client](https://www.npmjs.com/package/working-mpd-client) - mpd client
 
 ## random data generators
 - :snowflake: [faker](https://www.npmjs.com/package/faker) - Generate massive amounts of fake contextual data
