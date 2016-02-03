@@ -66,6 +66,7 @@
 - [aharris88/awesome-cli-apps](https://github.com/aharris88/awesome-cli-apps) - A curated list of command line apps
 
 ## CLI apps
+- [telegram-alert](https://www.npmjs.com/package/telegram-alert) - $ sleep 5; talert
 - [ttystudio](https://www.npmjs.com/package/ttystudio) - A terminal-to-gif recorder minus the headaches.
 - [asciinema/asciinema](https://github.com/asciinema/asciinema) - Terminal session recorder
 - [yudai/gotty](https://github.com/yudai/gotty) - Share your terminal as a web application
@@ -80,6 +81,7 @@
 - [localtunnel](https://www.npmjs.com/package/localtunnel) - expose localhost to the world
 - [http-server](https://www.npmjs.com/package/http-server) - A simple zero-configuration command-line http server
 - [itunes-remote](https://www.npmjs.com/package/itunes-remote) - Control iTunes via CLI
+- [badtaste](https://www.npmjs.com/package/badtaste) - Play audio from vk.com in your terminal
 - [wifi-password](https://www.npmjs.com/package/wifi-password) - Get current wifi password
 - [pipeable-js](https://www.npmjs.com/package/pipeable-js) - Pipeable JavaScript
 - [parallelshell](https://www.npmjs.com/package/parallelshell) - Invoke multiple commands, running in parallel
@@ -87,6 +89,7 @@
 ## OS API
 - [brightness](https://www.npmjs.com/package/brightness) - Change the screen brightness
 - [wallpaper](https://www.npmjs.com/package/wallpaper) - Get or set the desktop wallpaper
+- [battery-level](https://www.npmjs.com/package/battery-level) - Get current battery level
 - [fkill](https://www.npmjs.com/package/fkill) - Fabulously kill processes. Cross-platform.
 - [display-notification](https://www.npmjs.com/package/display-notification) - Display a notification (OS X 10.9+)
 - [trayballoon](https://www.npmjs.com/package/trayballoon) - Create a trayballoon on Windows
@@ -94,6 +97,7 @@
 - [username](https://www.npmjs.com/package/username) - Get the username of the current user
 
 ## shell
+- [bash-exec](https://www.npmjs.com/package/bash-exec) - like spawn('bash', [ '-c', cmd ]), but with better error handling
 - [shelljs](https://www.npmjs.com/package/shelljs) - Portable Unix shell commands for Node.js
 - [parallelshell](https://www.npmjs.com/package/parallelshell) - Invoke multiple commands, running in parallel
 
@@ -119,6 +123,7 @@
 ## CLI progress
 - [multimeter](https://www.npmjs.com/package/multimeter) - render multiple progress bars at once on the terminal
 - [progress](https://www.npmjs.com/package/progress) - Flexible ascii progress bar
+- [progress-control](https://www.npmjs.com/package/progress-control) - node-progress wrapper to control bar from keyboard
 - [elegant-spinner](https://www.npmjs.com/package/elegant-spinner) - Elegant spinner for interactive CLI apps
 - [cli-spinner](https://www.npmjs.com/package/cli-spinner) - A simple spinner
 - [log-update](https://www.npmjs.com/package/log-update) - Log by overwriting the previous output in the terminal. Useful for rendering progress bars, animations, etc.
@@ -190,6 +195,7 @@
 
 ## humanize
 - [filesize](https://www.npmjs.com/package/filesize) - JavaScript library to generate a human readable String describing the file size
+- [human2bytes](https://www.npmjs.com/package/human2bytes) - h2b('1K') → 1024
 - [human-interval](https://www.npmjs.com/package/human-interval) - Human readable time measurements
 - [pretty-ms](https://www.npmjs.com/package/pretty-ms) - Convert milliseconds to a human readable string: 1337000000 → 15d 11h 23m 20s
 - [pretty-hrtime](https://www.npmjs.com/package/pretty-hrtime) - process.hrtime() to words
@@ -217,6 +223,8 @@
 ## markdown
 - [ghmd2pdf](https://www.npmjs.com/package/ghmd2pdf) - module and cli tool for converting github markdown to pdf
 - [remarkable](https://www.npmjs.com/package/remarkable) - Markdown parser, done right. 100% Commonmark support, extensions, syntax plugins, high speed - all in one.
+- [markdown-utils](https://www.npmjs.com/package/markdown-utils) - Micro-utils for creating markdown snippets.
+- [tidy-markdown](https://www.npmjs.com/package/tidy-markdown) - fix ugly markdown.
 
 ## phantom
 - [phantomjs](https://www.npmjs.com/package/phantomjs) - Headless WebKit with JS API
@@ -328,6 +336,7 @@
 - [pageres](https://www.npmjs.com/package/pageres) - Capture website screenshots
 - [jade](https://www.npmjs.com/package/jade) - A clean, whitespace-sensitive template language for writing HTML
 - [documentation](https://www.npmjs.com/package/documentation) - a documentation generator
+- [working-mpd-client](https://www.npmjs.com/package/working-mpd-client) - mpd client
 
 ## random data generators
 - [faker](https://www.npmjs.com/package/faker) - Generate massive amounts of fake contextual data
